@@ -18,6 +18,7 @@ export default function App() {
       console.error(error)
     } finally {
       setLoading(false)
+      
     }
   }
 
@@ -52,7 +53,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#77867f',
     alignItems: 'center',
     justifyContent: 'center',
     padding:40,
@@ -60,5 +61,5 @@ const styles = StyleSheet.create({
   },
   text: {
     color: 'white'
-  }
+  },
 });
