@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ActivityIndicator, FlatList, Text, View } from "react-native";
 
-import BOARD_URL from '../../consts'
-
 
 // export default BoardCard = () => {
 //     const [isLoading, setLoading] = useState(true);
@@ -20,7 +18,10 @@ const BoardCard = (props) => {
     return (
         <View> 
             <Text>
-                Hello!
+                {props.board}
+            </Text>
+            <Text>
+                {props.description}
             </Text>
         </View>
     );
