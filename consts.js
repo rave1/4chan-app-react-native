@@ -1,0 +1,1 @@
+const BOARD_URL = 'https://a.4cdn.org/boards.json'
